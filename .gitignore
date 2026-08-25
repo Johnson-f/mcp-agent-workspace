@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build and test output
+.next/
+out/
+build/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+apps/**/.env*
+!apps/**/.env.example
+
+# Vercel
+.vercel/
+
+# TypeScript and framework-generated files
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs, archives, and operating-system files
+*.log
+.DS_Store
+*.pem
+*.trace
+*.zip
+*.tar.gz
+*.tgz
+*.bun
+
+# Lockfiles from package managers not used by this workspace
+package-lock.json
+
+.scratch
+docs/adr/

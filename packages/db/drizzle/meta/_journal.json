@@ -1,0 +1,111 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1786729356165,
+      "tag": "0000_auth_identity",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1786729381214,
+      "tag": "0001_mcp_connections",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1786729398568,
+      "tag": "0002_mcp_tools",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1786729420161,
+      "tag": "0003_mcp_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1786950646358,
+      "tag": "0004_add_mcp_tool_annotation_hash",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1786951317279,
+      "tag": "0005_add_artifacts",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1786951600117,
+      "tag": "0006_add_run_history_audit_visibility",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1786951888377,
+      "tag": "0007_add_automation_activation_schedule",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1786955606103,
+      "tag": "0008_add_conversations_run_briefs",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1786987885673,
+      "tag": "0009_clumsy_the_leader",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1787213672372,
+      "tag": "0010_giant_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1787222566441,
+      "tag": "0011_kind_marvex",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1787224454019,
+      "tag": "0012_secret_piledriver",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1787436066162,
+      "tag": "0013_wooden_black_widow",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1787438169886,
+      "tag": "0014_mixed_anita_blake",
+      "breakpoints": true
+    }
+  ]
+}

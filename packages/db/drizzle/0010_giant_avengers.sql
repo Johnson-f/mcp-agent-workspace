@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "conversation_messages_client_message_uidx" ON "conversation_messages" USING btree ("conversation_id",("metadata" ->> 'clientMessageId')) WHERE "conversation_messages"."role" = 'user' AND ("conversation_messages"."metadata" ->> 'clientMessageId') IS NOT NULL;

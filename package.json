@@ -1,0 +1,35 @@
+{
+  "name": "agents",
+  "private": true,
+  "scripts": {
+    "dev:website": "pnpm --dir apps/website dev",
+    "dev:api": "pnpm --dir apps/api dev",
+    "dev:worker": "pnpm --dir apps/worker dev",
+    "dev:mcp-smoke": "pnpm --dir apps/api exec tsx ../../scripts/dev/mock-mcp-server.ts",
+    "infra:up": "docker compose up --detach --wait",
+    "infra:down": "docker compose down",
+    "infra:logs": "docker compose logs --follow",
+    "db:check": "pnpm --dir packages/db db:check",
+    "db:generate": "pnpm --dir packages/db db:generate",
+    "db:migrate": "pnpm --dir packages/db db:migrate",
+    "db:studio": "pnpm --dir packages/db db:studio",
+    "check:website": "pnpm --dir apps/website lint",
+    "check:api": "pnpm --dir apps/api typecheck",
+    "check:worker": "pnpm --dir apps/worker typecheck",
+    "check:contracts": "pnpm --dir packages/contracts typecheck",
+    "check:db": "pnpm --dir packages/db typecheck",
+    "check:mcp-gateway": "pnpm --dir packages/mcp-gateway typecheck",
+    "check:agent-runtime": "pnpm --dir packages/agent-runtime typecheck",
+    "test:contracts": "pnpm --dir packages/contracts test",
+    "test:evals": "pnpm --dir packages/contracts test -- src/eval-route.test.ts",
+    "test:db": "pnpm --dir packages/db test",
+    "test:mcp-gateway": "pnpm --dir packages/mcp-gateway test",
+    "test:agent-runtime": "pnpm --dir packages/agent-runtime test",
+    "test:website": "pnpm --dir apps/website test",
+    "check": "pnpm run check:contracts && pnpm run check:db && pnpm run check:mcp-gateway && pnpm run check:agent-runtime && pnpm run check:api && pnpm run check:worker && pnpm run check:website"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24 <27"
+  }
+}
