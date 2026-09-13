@@ -24,6 +24,9 @@ apps/**/.env*
 # Vercel
 .vercel/
 
+# .remember
+.remember/ 
+
 # TypeScript and framework-generated files
 *.tsbuildinfo
 next-env.d.ts
